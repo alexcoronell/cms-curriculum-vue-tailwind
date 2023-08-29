@@ -1,1 +1,1 @@
-<template>Footer</template>
+<template>I am the Footer</template>

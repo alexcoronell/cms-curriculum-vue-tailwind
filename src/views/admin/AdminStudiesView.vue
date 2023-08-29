@@ -1,0 +1,1 @@
+<template>Studies Admin</template>

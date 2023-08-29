@@ -1,0 +1,1 @@
+<template>Training Admin</template>

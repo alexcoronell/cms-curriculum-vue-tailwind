@@ -1,0 +1,1 @@
+<template>Menu Admin</template>

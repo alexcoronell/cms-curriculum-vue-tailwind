@@ -1,0 +1,1 @@
+<template>Briefcase Admin</template>
