@@ -5,5 +5,9 @@
 @tailwind utilities;
 
 body {
-  @apply bg-background text-default;
+  @apply bg-background text-default w-full max-w-full;
+}
+
+#app {
+  @apply flex flex-col justify-between items-center min-h-screen
 }

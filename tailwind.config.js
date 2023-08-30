@@ -16,9 +16,11 @@ module.exports = {
       'primary-darkest': '#1a2e05',
       'primary-darker': '#365314',
       'background': '#082f49',
+      'background-darker': '#03111b',
       'default':'#e5e7eb',
       'white': '#FFFFFF',
       'black': '#000000',
+      'red': '#FF0000',
       'transparent': 'transparent'
     },
     extend: {},
