@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-background text-default w-full max-w-full;
+  @apply bg-background text-primary-lighter w-full max-w-full;
 }
 
 #app {
