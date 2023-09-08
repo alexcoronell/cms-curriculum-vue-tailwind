@@ -1,0 +1,23 @@
+form {
+    @apply rounded-2xl
+}
+
+.form-group {
+    @apply relative text-primary-lighter mb-5;
+
+    label {
+        @apply absolute px-2 left-3 top-[-0.6rem]
+    }
+
+    input {
+       @apply bg-transparent border-[2px] w-full border-primary-lighter px-2 py-3 rounded-md outline-none focus:border-primary-lightest;
+    }
+
+    input ~ label {
+        @apply focus:text-primary-lightest
+    }
+}
+
+form, form>.form-group>label {
+    @apply bg-background-darker
+}
