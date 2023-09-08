@@ -80,7 +80,7 @@ const showMenu = (condition) => {
 
 <style scoped>
 header {
-  @apply flex justify-between items-start w-full border-b-2 border-primary-lighter relative md:pt-3 md:pb-0 md:h-[63px];
+  @apply flex justify-between items-start w-full border-b-2 border-primary-lighter relative md:pt-3 md:pb-0 md:h-[74px];
 }
 
 header > nav {
