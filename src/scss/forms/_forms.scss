@@ -1,5 +1,5 @@
 form {
-    @apply rounded-2xl
+    @apply rounded-2xl;
 }
 
 .form-group {
@@ -19,5 +19,5 @@ form {
 }
 
 form, form>.form-group>label {
-    @apply bg-background-darker
+    @apply bg-background
 }

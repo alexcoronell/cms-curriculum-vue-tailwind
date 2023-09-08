@@ -80,11 +80,11 @@ const showMenu = (condition) => {
 
 <style scoped>
 header {
-  @apply flex justify-between items-start w-full border-b-2 border-primary-lighter relative bg-background-darker md:pt-3 md:pb-0 md:h-[63px];
+  @apply flex justify-between items-start w-full border-b-2 border-primary-lighter relative md:pt-3 md:pb-0 md:h-[63px];
 }
 
 header > nav {
-  @apply absolute w-full h-screen text-xl left-0 bg-background-darker menuMobile md:static md:bg-transparent md:h-auto;
+  @apply absolute z-10 w-full h-screen text-xl left-0 bg-background-darker menuMobile md:static md:bg-transparent md:h-auto;
 }
 
 header > nav > ul {

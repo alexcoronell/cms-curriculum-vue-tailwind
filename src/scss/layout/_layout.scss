@@ -1,5 +1,5 @@
 body {
-  @apply bg-background text-primary-lighter;
+  @apply bg-background-darker text-primary-lighter;
 }
 
 #app {
@@ -7,7 +7,7 @@ body {
 }
 
 header, footer {
-  @apply grow-0
+  @apply grow-0 bg-background border-primary-lighter
 }
 
 main {
